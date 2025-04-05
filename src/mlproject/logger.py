@@ -6,8 +6,10 @@ from datetime import datetime
 
 # Set the name for the log file 
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
+
 # Set the path for the file 
 log_path = os.path.join(os.getcwd(), "logs", LOG_FILE)
+
 # Created a folder 
 os.makedirs(log_path, exist_ok=True)
 
