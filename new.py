@@ -1,3 +1,5 @@
+# I faced an error of sql database was not reading, don't whether it was pymysql or with pandas but then I tried sqlalchemy and here we are the code worked properly and we also got all the data from the database.
+
 import pandas as pd
 from sqlalchemy import create_engine
 
